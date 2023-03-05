@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+/.parcel-cache
 
 # testing
 /coverage
@@ -23,4 +24,5 @@ yarn-debug.log*
 yarn-error.log*
 .parcel-cache*
 parcel*
-.
+/.parcel-cache
+.cache
