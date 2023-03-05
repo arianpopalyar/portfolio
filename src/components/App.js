@@ -1,9 +1,9 @@
 import React, { Component} from "react";
 import Projects from "./Projects";
 import SocialProfiles from "./SocialProfiles";
-import Jokes from "./Jokes";
 import myPic from "../assets/myPic.png";
 import Titles from "./Titles";
+import Header from "./Header";
 class App extends Component {
     state = { displayBio :false }
 
@@ -35,7 +35,6 @@ class App extends Component {
             <Projects /> 
             <hr />
             <SocialProfiles />
-            <Jokes/>
         </div>
         );
     }
