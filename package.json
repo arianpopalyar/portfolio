@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "parcel src/index.html",
+    "clean": "rm -rf ./dist",
     "build": "parcel build src/index.html",
     "start": "npm run build && live-server dist",
     "predeploy": "npm run build",
