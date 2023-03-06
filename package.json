@@ -1,14 +1,15 @@
 {
   "name": "portfolio",
+  "homepage": "https://arianpopalyar.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://arianpopalyar.github.io/portfolio",
   "scripts": {
     "dev": "parcel src/index.html",
+    "clean": "rm -rf ./dist",
     "build": "parcel build src/index.html",
     "start": "npm run build && live-server dist",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d dist"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
